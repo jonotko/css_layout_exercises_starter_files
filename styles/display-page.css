@@ -1,0 +1,41 @@
+main{
+  /*This removes the white space, between the divs, that is rendered by the browser as a result of changing their display to inline-block*/
+  font-size: 0;
+}
+.container {
+  width: 800px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebyside{
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.top .sidebyside{
+  width: 50%;
+  height: 200px;
+}
+
+.bottom .sidebyside{
+  width: 33.3%;
+  height: 300px;
+}
+
+.green{
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.grey{
+  background-color: grey;
+}
+.black{
+  background-color: black;
+}
+.orange{
+  background-color: orange
+}
